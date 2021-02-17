@@ -9,7 +9,7 @@ const CountdownTimer = function (selector, targetDate) {
   this.targetDate = targetDate;
 };
 
-const finalDate = new CountdownTimer('#timer-1', new Date('Feb 15, 2021'));
+const finalDate = new CountdownTimer('#timer-1', new Date('Feb 28, 2021'));
 const finalDateUnix = finalDate.targetDate.getTime();
 
 function updateTimer(time) {

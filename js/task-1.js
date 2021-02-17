@@ -31,7 +31,8 @@ function startTimer() {
   let intervalId = null;
   if (finalDateUnix < Date.now()) {
     clearInterval(intervalId);
-    console.log('Time is over')
+    alert('Time is over');
+    console.log('Time is over');
     return 
   }
   intervalId = setInterval(() => {
